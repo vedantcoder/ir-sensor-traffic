@@ -2,7 +2,7 @@ let totalOccupancy = 0;
 let court1InUse = false;
 let court2InUse = false;
 
-let lastTrigger: Record<"gate1" | "gate2", string | null> = {
+const lastTrigger: Record<"gate1" | "gate2", string | null> = {
   gate1: null,
   gate2: null,
 };
