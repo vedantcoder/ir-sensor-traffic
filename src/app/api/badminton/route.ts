@@ -161,7 +161,7 @@ export async function POST(req: Request) {
     // Handle invalid cross-gate sequences and provide better warnings
     const gate1Active = lastTrigger.gate1 !== null;
     const gate2Active = lastTrigger.gate2 !== null;
-    
+
     if ((sensor === "A1" || sensor === "B1") && gate2Active && !gate1Active) {
       console.log(
         `⚠️ Cross-gate activity: Gate 2 has pending sequence (${lastTrigger.gate2}) while Gate 1 triggered (${sensor})`
