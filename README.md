@@ -26,7 +26,7 @@ A comprehensive real-time occupancy tracking system that simulates infrared (IR)
 - **Error handling** - Robust logic for edge cases and malformed sequences
 - **Manual controls** - Admin buttons for resetting gates and occupancy counts
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 ├── src/
@@ -50,7 +50,7 @@ A comprehensive real-time occupancy tracking system that simulates infrared (IR)
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@ A comprehensive real-time occupancy tracking system that simulates infrared (IR)
    
    Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🎮 Usage Guide
+## Usage Guide
 
 ### Dashboard
 
@@ -167,7 +167,7 @@ if (lastSensor === "B1" && currentSensor === "A1") {
 - **GET**: Retrieve current gym occupancy
 - **POST**: Update gym occupancy
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Framework**: Next.js 14 with App Router
 - **Styling**: Tailwind CSS
@@ -176,7 +176,7 @@ if (lastSensor === "B1" && currentSensor === "A1") {
 - **State Management**: React hooks (useState, useEffect)
 - **API**: Next.js API routes
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Database integration for persistent data
 - [ ] Historical analytics and reporting
@@ -187,7 +187,7 @@ if (lastSensor === "B1" && currentSensor === "A1") {
 - [ ] Email/SMS notifications for capacity alerts
 - [ ] Advanced reporting dashboard
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -195,11 +195,11 @@ if (lastSensor === "B1" && currentSensor === "A1") {
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Development Notes
+## Development Notes
 
 ### Testing Gate Logic
 
