@@ -1,16 +1,16 @@
-# 🏟️ IR Traffic Simulation - Live Occupancy Tracker
+# IR Traffic Simulation - Live Occupancy Tracker
 
 A comprehensive real-time occupancy tracking system that simulates infrared (IR) sensor-based monitoring for recreational facilities. This Next.js application provides live monitoring and management of gym and badminton court occupancy using simulated gate sensors.
 
-## 🌟 Features
+## Features
 
-### 🏋️ Gym Monitoring
+### Gym Monitoring
 
-- **Real-time occupancy tracking** - Monitor current number of people in the gym
+- **Real-time occupancy tracking** - Monitor the current number of people in the gym
 - **Capacity management** - Visual progress bar showing occupancy vs. 50-person capacity
 - **Live updates** - Automatic data refresh for real-time monitoring
 
-### 🏸 Badminton Court Management
+### Badminton Court Management
 
 - **Dual-gate sensor system** - Sophisticated entry/exit tracking using A1/B1 and A2/B2 sensors
 - **Individual court status** - Track availability of Court 1 and Court 2
@@ -19,7 +19,7 @@ A comprehensive real-time occupancy tracking system that simulates infrared (IR)
 - **Cross-gate detection** - Warns about simultaneous gate usage
 - **Timeout handling** - Auto-resets incomplete gate sequences after 10 seconds
 
-### 🎛️ Advanced Gate Features
+### Advanced Gate Features
 
 - **Sequence validation** - Prevents invalid sensor combinations
 - **Comprehensive logging** - Detailed console output for debugging
@@ -102,7 +102,7 @@ A comprehensive real-time occupancy tracking system that simulates infrared (IR)
 
 ### Gym Page
 
-- Monitor current occupancy with visual capacity indicator
+- Monitor current occupancy with a visual capacity indicator
 - Real-time updates showing people count out of 50 capacity
 
 ### Badminton Page
@@ -120,14 +120,14 @@ A comprehensive real-time occupancy tracking system that simulates infrared (IR)
 #### Court Management
 
 - Toggle individual court availability (Court 1 & Court 2)
-- View real-time court status and utilization rates
+- View real-time court status and utilisation rates
 
 #### Admin Controls
 
 - **Reset Gate Sequences**: Clear any pending/incomplete sensor sequences
 - **Reset Occupancy Count**: Reset the total occupancy counter to zero
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Gate Logic Algorithm
 
@@ -147,12 +147,12 @@ if (lastSensor === "B1" && currentSensor === "A1") {
 
 ### Features Handled
 
-- ✅ Valid entry/exit sequences
-- ✅ Same sensor triggered twice (sequence reset)
-- ✅ Cross-gate activity detection
-- ✅ Timeout handling (10-second auto-reset)
-- ✅ Comprehensive logging for debugging
-- ✅ Manual admin controls for testing
+- Valid entry/exit sequences
+- Same sensor triggered twice (sequence reset)
+- Cross-gate activity detection
+- Timeout handling (10-second auto-reset)
+- Comprehensive logging for debugging
+- Manual admin controls for testing
 
 ### API Endpoints
 
@@ -165,16 +165,7 @@ if (lastSensor === "B1" && currentSensor === "A1") {
 #### Gym API (`/api/gym`)
 
 - **GET**: Retrieve current gym occupancy
-- **POST**: Update gym occupancy (to be implemented)
-
-## 🎨 UI/UX Features
-
-- **Modern Design**: Clean, gradient-based interface with Tailwind CSS
-- **Responsive Layout**: Mobile-first design that works on all devices
-- **Interactive Elements**: Hover effects, transitions, and visual feedback
-- **Real-time Updates**: Live data refresh without page reloads
-- **Visual Indicators**: Status badges, progress bars, and color-coded states
-- **Admin Interface**: Dedicated controls for testing and management
+- **POST**: Update gym occupancy
 
 ## 🛠️ Technologies Used
 
@@ -224,10 +215,10 @@ To test the dual-gate sensor system:
 
 Monitor browser console for detailed sensor activity logs:
 
-- ✅ Successful entries/exits
-- ⚠️ Warnings for edge cases
-- 🔄 Sequence resets and timeouts
-- 🚦 Multi-gate activity detection
+- Successful entries/exits
+- Warnings for edge cases
+- Sequence resets and timeouts
+- Multi-gate activity detection
 
 ---
 
